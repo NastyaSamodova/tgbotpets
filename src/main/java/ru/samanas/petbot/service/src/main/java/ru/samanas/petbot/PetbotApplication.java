@@ -1,0 +1,15 @@
+package ru.samanas.petbot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class PetbotApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PetbotApplication.class, args);
+	}
+
+}
